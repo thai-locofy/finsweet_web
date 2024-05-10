@@ -1,0 +1,454 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--blue);
+}
+.ourSponsors {
+  position: relative;
+  line-height: 120%;
+  font-weight: 700;
+}
+.ourSponsorsWrapper {
+  width: 679px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  z-index: 1;
+}
+.logoIcon {
+  height: 34px;
+  width: 172px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2px;
+}
+.logoIcon1,
+.logoIcon2 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoIcon1 {
+  align-self: stretch;
+  width: 166px;
+  max-height: 100%;
+  min-height: 39px;
+}
+.logoIcon2 {
+  height: 36px;
+  width: 152px;
+}
+.logoInstance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.logoIcon3 {
+  height: 31px;
+  width: 149px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoInstance1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+}
+.logoIcon4 {
+  height: 38px;
+  width: 162px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  opacity: 0.8;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.sponsors,
+.sponsorsWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sponsors {
+  width: 1280px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 72px;
+  position: relative;
+  gap: 64px;
+}
+.sponsorsWrapper {
+  width: 1380px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  text-align: left;
+  font-size: var(--heading-2-size);
+  color: var(--white);
+  font-family: var(--heading-2);
+}
+.background1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black);
+}
+.brandIcon {
+  align-self: stretch;
+  height: 40.5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandWrapper {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+}
+.pages1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 61px;
+}
+.home {
+  text-decoration: none;
+  line-height: 24px;
+  color: inherit;
+  min-width: 45px;
+}
+.blog,
+.home,
+.host,
+.podcast {
+  position: relative;
+  display: inline-block;
+}
+.podcast {
+  font-size: 18px;
+  min-width: 69.9px;
+}
+.blog,
+.host {
+  line-height: 24px;
+  min-width: 36px;
+}
+.blog {
+  text-decoration: none;
+  color: inherit;
+  min-width: 34px;
+}
+.links {
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+}
+.links,
+.pages,
+.pagesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pages {
+  gap: var(--gap-13xl);
+}
+.pagesWrapper {
+  padding: 0 4.1px 0 0;
+}
+.about,
+.contact,
+.reachUs1 {
+  position: relative;
+  display: inline-block;
+}
+.reachUs1 {
+  line-height: 150%;
+  font-weight: 700;
+  min-width: 92px;
+}
+.about,
+.contact {
+  line-height: 24px;
+  min-width: 61px;
+}
+.about {
+  min-width: 46px;
+}
+.links1 {
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+}
+.links1,
+.reachUs,
+.reachUsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reachUs {
+  gap: var(--gap-13xl);
+}
+.reachUsWrapper {
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.subscribe1 {
+  line-height: 150%;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 100px;
+}
+.icon,
+.subscribe1,
+.textIcon {
+  position: relative;
+}
+.icon {
+  height: 32px;
+  width: 32.3px;
+}
+.textIcon {
+  align-self: stretch;
+  height: 17.9px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.textWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 6.7px;
+}
+.applePodcast {
+  width: 182.7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0.5px 0 0;
+  box-sizing: border-box;
+  gap: 10.3px;
+}
+.googlePodcastIcon {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cloudIcon {
+  height: 32px;
+  width: 33px;
+  position: relative;
+}
+.textIcon1 {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 8.1px;
+}
+.soundcloud {
+  width: 174.4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0.4px;
+  box-sizing: border-box;
+  gap: 7.8px;
+}
+.spotifyIcon {
+  width: 127.8px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.links2,
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.links2 {
+  align-self: stretch;
+}
+.subscribe {
+  width: 195.7px;
+}
+.footerColumns,
+.topcontent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerColumns {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.topcontent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 192px 80px 96px;
+  box-sizing: border-box;
+  position: relative;
+}
+.background2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--blue);
+}
+.copyrightFinsweet2021 {
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.bottomcopyright {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl) 21px;
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerContent {
+  align-self: stretch;
+  max-width: 100%;
+  z-index: -1;
+  margin-top: -96px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--heading-2);
+}
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  line-height: normal;
+  letter-spacing: normal;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 1200px) {
+  .sponsors {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .ourSponsors {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sponsors {
+    gap: var(--gap-13xl);
+  }
+  .footerColumns {
+    flex-wrap: wrap;
+  }
+  .topcontent {
+    padding: 116px 40px 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourSponsors {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .sponsors {
+    gap: var(--gap-base);
+  }
+  .pages1,
+  .reachUs1,
+  .subscribe1 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}
